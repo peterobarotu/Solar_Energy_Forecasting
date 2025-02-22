@@ -48,7 +48,7 @@ This research was conducted as part of my MSc Energy Economics dissertation at t
 ## How to Use
 1. Clone this repository:
    ```sh
-   git clone https://github.com/peterobarotu/Solar_Energy_forecasting.git
+   git clone https://github.com/peterobarotu/Solar_Energy_Forecasting.git
    ```
 2. Install dependencies:
    ```sh
@@ -58,6 +58,7 @@ This research was conducted as part of my MSc Energy Economics dissertation at t
 
 ## Author
 **Obarotu Peter Urhuerhi**
+
 MSc Energy Economics, CPEEL, University of Ibadan  
 LinkedIn:  http://www.linkedin.com/in/obarotu-urhuerhi-0b8899225  
 GitHub: https://github.com/peterobarotu/
