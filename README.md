@@ -41,7 +41,7 @@ This research was conducted as part of my MSc Energy Economics dissertation at t
 /solar-energy-forecasting
 │── datasets/            # Raw and processed datasets
 │── notebooks/           # Jupyter notebooks for analysis and modeling
-│── results/             # Model outputs, evaluation reports, and visualizations
+│── LICENSE/             # Model outputs, evaluation reports, and visualizations
 │── README.md            # Project description
 ```
 
