@@ -52,6 +52,15 @@ This research was conducted as part of my MSc Energy Economics dissertation at t
    ```
    
 2. Run the Jupyter notebooks in the `/notebooks/` directory to reproduce results.
+   
+---
+
+## **License**  
+This project is licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0) License**. You are free to share and adapt the material as long as proper credit is given.  
+
+For full details, see the [LICENSE.txt](./LICENSE.txt) file. 
+
+---
 
 ## Author
 **Obarotu Peter Urhuerhi**
