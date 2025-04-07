@@ -3,7 +3,7 @@
 # Solar Energy Forecasting and PV System Modeling
 
 ## Project Overview
-This project focuses on forecasting solar radiation in Ibadan, Oyo State, and modeling energy generation using photovoltaic (PV) systems. The methodology involves predicting **clear sky radiations** using weather variables only, followed by predicting **cloudy sky radiation** based on the predicted clear sky radiations, weather variables and `Cloud Type`. The study is conducted for **annual forecasting**, as well as separate analyses for the **wet season** and **dry season**.
+This project focuses on forecasting solar radiation in Ibadan, Oyo State, Nigeria, and modeling energy generation using photovoltaic (PV) systems. The methodology involves predicting **clear sky radiations** using weather variables only, followed by predicting **cloudy sky radiation** based on the predicted clear sky radiations, weather variables and `Cloud Type`. The study is conducted for **annual forecasting**, as well as separate analyses for the **wet season** and **dry season**.
 
 Finally, the predicted solar radiation is used to model the **actual energy output** of a PV system, incorporating solar panel characteristics and inverter parameters to estimate energy production.
 
