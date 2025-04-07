@@ -46,7 +46,7 @@ This research was conducted as part of my MSc Energy Economics dissertation at t
   - GHI nRMSE: **0.12**
 - These findings highlight the value of developing separate seasonal models and reinforce the effectiveness of Random Forest for solar radiation forecasting.
 ## Data Source
-- **Dataset:** Retrieved from the **National Solar Radiation Database (NSRDB)** of **NREL (National Renewable Energy Laboratory).**
+- **Dataset:** Retrieved from the **[National Solar Radiation Database (NSRDB)](https://nsrdb.nrel.gov/data-viewer)** of **NREL (National Renewable Energy Laboratory).**
 
 ## Technologies Used
 - **Python** (pandas, NumPy, scikit-learn, TensorFlow, PVLIB)
