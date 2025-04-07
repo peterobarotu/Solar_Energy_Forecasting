@@ -1,3 +1,5 @@
+---
+
 # Solar Energy Forecasting and PV System Modeling
 
 ## Project Overview
@@ -27,6 +29,23 @@ This research was conducted as part of my MSc Energy Economics dissertation at t
 - Converted predicted solar radiation into **actual energy output**.
 - Integrated **solar panel specifications** and **inverter efficiency parameters** using PV modeling libraries.
 
+## Findings
+- **Random Forest** consistently outperformed CNN and LSTM models across all scenarios.
+- Model performance improved significantly during the **dry season**, showing lower errors compared to the wet season.
+- For the **annual model**, Random Forest achieved:
+  - DHI nRMSE: **0.22**
+  - DNI nRMSE: **0.33**
+  - GHI nRMSE: **0.19**
+- In the **wet season**, performance dropped slightly due to higher cloud variability:
+  - DHI nRMSE: **0.27**
+  - DNI nRMSE: **0.50**
+  - GHI nRMSE: **0.27**
+- The **dry season** results showed the highest accuracy:
+  - DHI nRMSE: **0.15**
+  - DNI nRMSE: **0.22**
+  - GHI nRMSE: **0.12**
+- These findings highlight the value of developing separate seasonal models and reinforce the effectiveness of Random Forest for solar radiation forecasting in tropical climates.
+
 ## Data Source
 - **Dataset:** Retrieved from the **National Solar Radiation Database (NSRDB)** of **NREL (National Renewable Energy Laboratory).**
 
@@ -50,24 +69,21 @@ This research was conducted as part of my MSc Energy Economics dissertation at t
    ```sh
    git clone https://github.com/peterobarotu/Solar_Energy_Forecasting.git
    ```
-   
 2. Run the Jupyter notebooks in the `/notebooks/` directory to reproduce results.
    
 ---
 
-## **License**  
+## License  
 This project is licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0) License**. You are free to share and adapt the material as long as proper credit is given.  
 
 For full details, see the [LICENSE.txt](./LICENSE.txt) file. 
 
 ---
 
-## Author
-**Obarotu Peter Urhuerhi**
-
+## Author  
+**Obarotu Peter Urhuerhi**  
 MSc Energy Economics, CPEEL, University of Ibadan  
 LinkedIn:  http://www.linkedin.com/in/obarotu-urhuerhi-0b8899225  
 GitHub: https://github.com/peterobarotu/
 
-
-
+---
