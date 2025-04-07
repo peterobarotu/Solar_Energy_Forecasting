@@ -44,8 +44,7 @@ This research was conducted as part of my MSc Energy Economics dissertation at t
   - DHI nRMSE: **0.15**
   - DNI nRMSE: **0.22**
   - GHI nRMSE: **0.12**
-- These findings highlight the value of developing separate seasonal models and reinforce the effectiveness of Random Forest for solar radiation forecasting in tropical climates.
-
+- These findings highlight the value of developing separate seasonal models and reinforce the effectiveness of Random Forest for solar radiation forecasting.
 ## Data Source
 - **Dataset:** Retrieved from the **National Solar Radiation Database (NSRDB)** of **NREL (National Renewable Energy Laboratory).**
 
