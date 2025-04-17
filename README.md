@@ -1,7 +1,9 @@
+---
+
 # Solar Energy Forecasting and PV System Modeling
 
 ## Project Overview
-This project focuses on forecasting solar radiation in Ibadan, Oyo State, and modeling energy generation using photovoltaic (PV) systems. The methodology involves predicting **clear sky radiations** using weather variables only, followed by predicting **cloudy sky radiation** based on the predicted clear sky radiations, weather variables and `Cloud Type`. The study is conducted for **annual forecasting**, as well as separate analyses for the **wet season** and **dry season**.
+This project focuses on forecasting solar radiation in Ibadan, Oyo State, Nigeria, and modeling energy generation using photovoltaic (PV) systems. The methodology involves predicting **clear sky radiations** using weather variables only, followed by predicting **cloudy sky radiation** based on the predicted clear sky radiations, weather variables and `Cloud Type`. The study is conducted for **annual forecasting**, as well as separate analyses for the **wet season** and **dry season**.
 
 Finally, the predicted solar radiation is used to model the **actual energy output** of a PV system, incorporating solar panel characteristics and inverter parameters to estimate energy production.
 
@@ -27,8 +29,24 @@ This research was conducted as part of my MSc Energy Economics dissertation at t
 - Converted predicted solar radiation into **actual energy output**.
 - Integrated **solar panel specifications** and **inverter efficiency parameters** using PV modeling libraries.
 
+## Findings
+- **Random Forest** consistently outperformed CNN and LSTM models across all scenarios.
+- Model performance improved significantly during the **dry season**, showing lower errors compared to the wet season.
+- For the **annual model**, Random Forest achieved:
+  - DHI nRMSE: **0.22**
+  - DNI nRMSE: **0.33**
+  - GHI nRMSE: **0.19**
+- In the **wet season**, performance dropped slightly due to higher cloud variability:
+  - DHI nRMSE: **0.27**
+  - DNI nRMSE: **0.50**
+  - GHI nRMSE: **0.27**
+- The **dry season** results showed the highest accuracy:
+  - DHI nRMSE: **0.15**
+  - DNI nRMSE: **0.22**
+  - GHI nRMSE: **0.12**
+- These findings highlight the value of developing separate seasonal models and reinforce the effectiveness of Random Forest for solar radiation forecasting.
 ## Data Source
-- **Dataset:** Retrieved from the **National Solar Radiation Database (NSRDB)** of **NREL (National Renewable Energy Laboratory).**
+- **Dataset:** Retrieved from the **[National Solar Radiation Database (NSRDB)](https://nsrdb.nrel.gov/data-viewer)** of **NREL (National Renewable Energy Laboratory).**
 
 ## Technologies Used
 - **Python** (pandas, NumPy, scikit-learn, TensorFlow, PVLIB)
@@ -41,8 +59,8 @@ This research was conducted as part of my MSc Energy Economics dissertation at t
 /solar-energy-forecasting
 │── datasets/            # Raw and processed datasets
 │── notebooks/           # Jupyter notebooks for analysis and modeling
-│── LICENSE/             # Model outputs, evaluation reports, and visualizations
-│── README.md            # Project description
+│── LICENSE            
+│── README.md           
 ```
 
 ## How to Use
@@ -50,15 +68,21 @@ This research was conducted as part of my MSc Energy Economics dissertation at t
    ```sh
    git clone https://github.com/peterobarotu/Solar_Energy_Forecasting.git
    ```
-   
 2. Run the Jupyter notebooks in the `/notebooks/` directory to reproduce results.
+   
+---
 
-## Author
-**Obarotu Peter Urhuerhi**
+## License  
+This project is licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0) License**. You are free to share and adapt the material as long as proper credit is given.  
 
+For full details, see the [LICENSE.txt](./LICENSE.txt) file. 
+
+---
+
+## Author  
+**Obarotu Peter Urhuerhi**  
 MSc Energy Economics, CPEEL, University of Ibadan  
 LinkedIn:  http://www.linkedin.com/in/obarotu-urhuerhi-0b8899225  
 GitHub: https://github.com/peterobarotu/
 
-
-
+---
